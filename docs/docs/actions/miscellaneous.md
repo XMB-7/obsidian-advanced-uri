@@ -7,8 +7,8 @@ sidebar_position: 6
 | ---------------------- | ------------------------------ | --------------------------------------------------- |
 | Exists                 | <identification\>, exists=true | Copies `1` to clipboard if file exists, `0` if not. |
 | Update plugins         | updateplugins=true             | Updates all community-plugins                       |
-| Enable custom plugin   | enable-plugin                  | Enable `enable-plugin` plugin                       |
-| Disable custom plugins | disable-plugin                 | Disable `disable-plugin` plugin                     |
+| Enable custom plugin   | enable-plugin, settingid       | Enable the plugin corresponding to `settingid`      |
+| Disable custom plugins | disable-plugin, settingid      | Disable the plugin corresponding to `settingid`     |
 
 ## Read Frontmatter
 
